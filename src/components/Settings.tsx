@@ -348,7 +348,7 @@ export function Settings() {
                       <span className="text-lg">{getActorIcon(log.actorType)}</span>
                       <div>
                         <p className="font-medium">{log.actorName}</p>
-                        <Badge variant="outline" size="sm" className={getActorColor(log.actorType)}>
+                        <Badge variant="outline" className={`text-xs ${getActorColor(log.actorType)}`}>
                           {log.actorType}
                         </Badge>
                       </div>
