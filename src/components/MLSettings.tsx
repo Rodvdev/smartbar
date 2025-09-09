@@ -6,7 +6,6 @@ import { Button } from './ui/button';
 import { Label } from './ui/label';
 import { Slider } from './ui/slider';
 import { Switch } from './ui/switch';
-import { Progress } from './ui/progress';
 
 export function MLSettings() {
   const [predictionHorizon, setPredictionHorizon] = useState([30]);

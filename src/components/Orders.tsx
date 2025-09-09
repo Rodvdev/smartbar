@@ -20,7 +20,7 @@ import {
 } from './ui/dialog';
 
 export function Orders() {
-  const [orders, setOrders] = useState([
+  const [orders] = useState([
     {
       id: 'ORD-001',
       cashierId: 'USER-001',

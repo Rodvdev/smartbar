@@ -3,7 +3,7 @@ import { TrendingUp, TrendingDown, Clock, Zap, AlertTriangle } from 'lucide-reac
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 import { Progress } from './ui/progress';
-import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, BarChart, Bar } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 
 export function Dashboard() {
   const hourlyData = [
